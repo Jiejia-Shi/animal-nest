@@ -1,0 +1,38 @@
+<!--pages/shares/shares.wxml-->
+<!--轮播图区域-->
+<swiper autoplay="true" indicator-dots circular>
+  <swiper-item><image src="/pictures/association.png" bindtap="btnGoToAssociation"></image></swiper-item>
+  <swiper-item><image src="/pictures/activity.png" bindtap="btnGoToActivity"></image></swiper-item>
+</swiper>
+
+<!--帖子信息-->
+<view class="share-item" wx:for="{{shareList}}" wx:key="id">
+  <!--用户信息-->
+  <view class="userInfo" style="display: flex; flex-direction: row;">
+    <image src="{{item.userProfile}}"></image>
+    <text>{{item.userName}}</text>
+  </view>
+  <!--文案、图片-->
+  <view class="words">
+    <text style="color: lightgreen">——————————————————</text>
+    <text>{{item.words}}</text>
+  </view>
+  <view class="pic">
+    <image src="{{item.picture}}"></image>
+    <text style="color: lightgreen">———————————————————</text>
+  </view>
+  <!--互动区域，包括评论和点赞button-->
+  <view class="interact" style='margin-left:47rpx'>
+    <view class="talk">
+      <button bindtap="btnGoToComment" data-index="{{item.id}}" class="talkbtn" style='width:150rpx ' plain='true'><image src="/pictures/talk.png"></image></button>
+      <text style='margin-top:30rpx'>{{item.commentNumber}}</text>
+    </view>
+    <view class="thumbs">
+      <button bindtap="btnThumb" data-index="{{item.id}}" class='thumbsbtn'  style='width:150rpx; margin-left:130rpx' plain='true'>
+        <image wx:if="{{!item.like}}" src="/pictures/thumb.png"></image>
+        <image wx:else src="/pictures/thumb-clicked.png"></image>
+      </button>
+      <text style='margin-top:30rpx'>{{item.likesNumber}}</text>
+    </view>
+  </view>
+</view>

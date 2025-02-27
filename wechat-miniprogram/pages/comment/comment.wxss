@@ -1,0 +1,78 @@
+/* pages/comment/comment.wxss */
+.share-item {
+  display:flex;
+  flex-direction: column;
+  padding: 25rpx;
+  border: 2rpx solid #26751e;
+  margin: 15rpx;
+  vertical-align: center;
+  box-shadow: 0rpx -1rpx 20rpx 2rpx lightgreen ;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  height:75rpx;
+}
+
+.userInfo image{
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  right: 110rpx;
+
+}
+
+.userInfo text {
+  font-size: 30rpx;
+  position: relative;
+  right: 320rpx;
+  top: 70rpx;
+}
+
+.userInfo {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 45rpx;
+  margin-bottom: 10rpx;
+}
+
+.words {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35rpx;
+  color: black;
+  text-align:left;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.btns{
+  position: fixed;
+  bottom: -20px;
+  z-index: 1;
+  width: 100%;
+  background: #FFFFFF;
+  height: 120rpx;
+}
+
+.submitbtn{
+  width:70% !important;
+  float: left;
+  background-color: paleturquoise;
+}
+
+.resetbtn{
+  width: 30% !important;
+  float: right; 
+  background-color: green;
+}
+
+.detailText {
+  width:70% !important;
+  height:48rpx;
+  position: relative;
+  margin-left: -40rpx;
+}

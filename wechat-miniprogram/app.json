@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/nest/nest",
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shares/shares",
+    "pages/home/home",
+    "pages/comment/comment",
+    "pages/myposting/myposting",
+    "pages/myinteraction/myinteraction",
+    "pages/myfavorite/myfavorite",
+    "pages/association/association",
+    "pages/knowledge/knowledge",
+    "pages/activity/activity",
+    "pages/feedback/feedback",
+    "pages/newposting/newposting"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0d0",
+    "navigationBarTitleText": "动物小窝",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/shares/shares",
+        "text":"分享",
+        "iconPath": "/pictures/shares.png",
+        "selectedIconPath": "/pictures/shares-active.png"
+      },
+      {
+        "pagePath":"pages/nest/nest",
+        "text":"小窝",
+        "iconPath": "/pictures/nest.png",
+        "selectedIconPath": "/pictures/nest-active.png"
+      },
+      {
+        "pagePath":"pages/home/home",
+        "text":"我的",
+        "iconPath": "/pictures/home.png",
+        "selectedIconPath": "/pictures/home-active.png"
+      }
+
+    ]
+
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
+

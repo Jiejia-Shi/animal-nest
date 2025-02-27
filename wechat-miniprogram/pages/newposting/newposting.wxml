@@ -1,0 +1,14 @@
+<textarea class="detailText" 
+    placeholder="请输入分享内容"
+    maxlength="500"
+    bindinput="bindTextAreaBlur"
+    value="{{words}}">
+</textarea>
+
+<view class="posting">
+  <button bindtap="uploadImage" class="inputPicture" plain='true'><image src="{{picture}}" ></image></button>
+</view>
+
+<view class="btns">
+  <button bindtap="insertPosting"> 发布分享 </button>
+</view>

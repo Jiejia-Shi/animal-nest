@@ -1,0 +1,12 @@
+<!--pages/myfavorite/myfavorite.wxml-->
+<view bindtap="btnFavoriteAnimal" class="favorite-item" wx:for="{{animalList}}" data-index="{{item.id}}" wx:key="id">
+  <button plain="true">
+    <view class="images">
+      <image src="{{item.picture}}" class="images"></image>
+    </view>
+    <view class="text">
+      <text class="text1">{{item.name}}</text>
+      <text class="text2">{{item.habitat}}</text>
+    </view>
+  </button>
+</view>

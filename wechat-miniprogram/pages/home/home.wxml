@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class="userInfo">
+  <button bindtap="uploadImage" class="changeProfile" plain='true'><image src="{{profile}}" ></image></button>
+  <input class="changeName" 
+    placeholder="{{name}}"
+    maxlength="500"
+    bindinput="bindTextAreaBlur">
+  </input>
+</view>
+<view class="btns">
+  <button bindtap="btnmp"> 我的发布 </button>
+  <button bindtap="btnmf"> 我的关心 </button>
+  <button bindtap="btnfb"> 我要反馈 </button>
+</view>
+

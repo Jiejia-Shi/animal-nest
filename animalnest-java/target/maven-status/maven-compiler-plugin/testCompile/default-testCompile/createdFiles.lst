@@ -1,0 +1,7 @@
+com\animalnest\animal\FavoriteServiceTest.class
+com\animalnest\animal\CommentDaoTest.class
+com\animalnest\animal\AnimalTest.class
+com\animalnest\animal\UserDaoTest.class
+com\animalnest\animal\LikeDaoTest.class
+com\animalnest\animal\UserServiceTest.class
+com\animalnest\animal\AnimalServiceTest.class

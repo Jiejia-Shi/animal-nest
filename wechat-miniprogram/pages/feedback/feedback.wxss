@@ -1,0 +1,28 @@
+/* pages/feedback/feedback.wxss */
+.detailText {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  height:800rpx;
+  margin-top:40px;
+  margin-left:40px;
+  font-size:40rpx;
+  border:1px;
+  border-color: cadetblue;
+  box-shadow: 5rpx -1rpx 20rpx 1rpx lightgreen;
+}
+
+
+.btns button{
+  border-radius: 30rpx;
+  background-color: hsl(120, 87%, 85%);
+  margin-top: 80rpx;
+  width:60%;
+  height:130rpx;
+  line-height: 90rpx;
+  text-align: center;
+  letter-spacing: 5rpx;
+
+  font-size:50rpx;
+}
+

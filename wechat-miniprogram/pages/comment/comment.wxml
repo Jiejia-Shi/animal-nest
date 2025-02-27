@@ -1,0 +1,28 @@
+<!--pages/comment/comment.wxml-->
+
+<!--帖子信息-->
+<view class="share-item" wx:for="{{commentList}}" wx:key="id">
+  <!--用户信息-->
+  <view class="userInfo" style="display: flex; flex-direction: row;">
+    <image src="{{item.userProfile}}"></image>
+    <text>{{item.userName}}</text>
+  </view>
+  <!--文案、图片-->
+  <view class="words">
+    <text style="color: lightgreen">——————————————————</text>
+    <text>{{item.words}}</text>
+  </view>
+</view>
+
+<view  class="btns">
+   <button  class="submitbtn">
+    <input class="detailText" 
+    bindinput="changeText"
+    placeholder="请输入评论内容"
+    value="{{details}}">
+</input>
+   </button>
+   <button class="resetbtn" bindtap="insertComment">
+       发布
+   </button>
+</view>

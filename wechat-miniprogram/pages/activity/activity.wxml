@@ -1,0 +1,4 @@
+<!--pages/association/association.wxml-->
+<image src="/pictures/activity.jpg" style="width: 90%; height:1500rpx; margin-top:30rpx; margin-left:35rpx;"></image>
+<image src="/pictures/act.jpg" style="width: 90%; height:650rpx; margin-top:15rpx; margin-left:35rpx;"></image>
+

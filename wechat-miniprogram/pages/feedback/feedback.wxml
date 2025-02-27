@@ -1,0 +1,13 @@
+<!--pages/feedback/feedback.wxml-->
+
+
+<textarea class="detailText" 
+    placeholder="请输入反馈内容"
+    maxlength="500"
+    bindinput="bindTextAreaBlur"
+    value="{{details}}">
+</textarea>
+
+<view class="btns">
+  <button bindtap="btnsubmit"> 提交 </button>
+</view>

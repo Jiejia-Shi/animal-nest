@@ -1,0 +1,102 @@
+/* pages/myposting/myposting.wxss */
+
+.share-item {
+  display:flex;
+  flex-direction: column;
+  padding: 25rpx;
+  border: 2rpx solid #26751e;
+  margin: 15rpx;
+  vertical-align: center;
+  box-shadow: 0rpx -1rpx 20rpx 2rpx lightgreen ;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  height:75rpx;
+}
+
+.userInfo image{
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  right: 110rpx;
+
+}
+
+.userInfo text {
+  font-size: 30rpx;
+  position: relative;
+  right: 320rpx;
+  top: 70rpx;
+}
+
+.pic imag{
+  width: 650rpx;
+  height: 450rpx;
+  display:block;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  margin-right: 50rpx;
+  
+  
+}
+
+.pic text{
+  color:#26751e;
+  
+}
+
+
+
+.userInfo {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 45rpx;
+  margin-bottom: 10rpx;
+}
+
+.words {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35rpx;
+  color: black;
+  text-align:left;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+
+.interact {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.interact image{
+  width: 75rpx;
+  height: 75rpx;
+  vertical-align: center;
+
+}
+
+
+
+.talk{
+  display:flex;
+  flex-direction:row;
+}
+
+
+
+.thumbs{
+  display:flex;
+  flex-direction:row;
+}
+
+button[plain] {
+  border:0;
+  width:5rpx;
+}

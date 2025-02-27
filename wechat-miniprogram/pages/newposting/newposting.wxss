@@ -1,0 +1,57 @@
+/* pages/newposting/newposting.wxss */
+.posting {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  top:30rpx;
+  margin-top: 40rpx;
+  margin-left: 168rpx;
+  width:400rpx;
+  height:300rpx;
+}
+
+button[plain] {
+  width:400rpx;
+  height:300rpx;
+  border:1px;
+  border-color: cadetblue;
+  box-shadow: 5rpx -1rpx 20rpx 1rpx lightgreen;
+}
+
+.posting image{
+  margin-top:0rpx;
+  width:300rpx;
+  height:280rpx;
+}
+
+.detailText {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  height:400rpx;
+  margin-top:40px;
+  margin-left:40px;
+  font-size:40rpx;
+  border:1px;
+  border-color: cadetblue;
+  box-shadow: 5rpx -1rpx 20rpx 1rpx lightgreen;
+}
+
+.btns {
+  display:flex;
+  flex-direction: column;
+  margin-top: 80rpx;
+}
+
+.btns button{
+  border-radius: 30rpx;
+  background-color: hsl(120, 87%, 85%);
+  margin-top: 20rpx;
+  width:70%;
+  height:130rpx;
+  line-height: 90rpx;
+  text-align: center;
+  letter-spacing: 5rpx;
+
+  font-size:50rpx;
+}

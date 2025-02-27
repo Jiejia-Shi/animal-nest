@@ -1,0 +1,184 @@
+/* pages/nest/nest.wxss */
+
+.animalImage image{
+  margin-top: 52rpx;
+  margin-left: 52rpx;
+  width: 630rpx;
+  height: 500rpx;
+}
+
+.nameAndButton {
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:130rpx;
+}
+
+
+button[plain] {
+  width:180rpx;
+  height:140rpx;
+  border:0;
+  position: relative;
+  left:0rpx;
+}
+
+.nameAndButton image{
+  width:100rpx;
+  height:100rpx;
+  position: relative;
+  
+}
+
+.nameAndButton text{
+  font-size: 60rpx;
+  font-weight: 700;
+  position: relative;
+  top: 20rpx;
+  left:80rpx;
+}
+
+.class1 {
+  height:200rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+
+.class11 text{
+  font-size: 33rpx;
+  color: grey;
+}
+
+.class12 text{
+  font-size: 45rpx;
+}
+
+.class13 text{
+  font-size: 33rpx;
+  color: grey;
+}
+
+.class14 text{
+  font-size: 45rpx;
+}
+
+.btns{
+  position: fixed;
+  bottom: -20px;
+  z-index: 1;
+  width: 100%;
+  background: #FFFFFF;
+  height: 120rpx;
+}
+
+.submitbtn{
+  width:50% !important;
+  float: left;
+  background-color: paleturquoise;
+}
+
+.resetbtn{
+  width: 50% !important;
+  float: right; 
+  background-color: rgb(207, 195, 212);
+}
+
+.share-item {
+  display:flex;
+  flex-direction: column;
+  padding: 25rpx;
+  border: 2rpx solid #26751e;
+  margin: 15rpx;
+  vertical-align: center;
+  box-shadow: 0rpx -1rpx 20rpx 2rpx lightgreen ;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  height:75rpx;
+}
+
+.userInfo image{
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  right: 110rpx;
+
+}
+
+.userInfo text {
+  font-size: 30rpx;
+  position: relative;
+  right: 320rpx;
+  top: 70rpx;
+}
+
+.pic imag{
+  width: 650rpx;
+  height: 450rpx;
+  display:block;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  margin-right: 50rpx;
+  
+  
+}
+
+.pic text{
+  color:#26751e;
+  
+}
+
+
+
+.userInfo {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 45rpx;
+  margin-bottom: 10rpx;
+}
+
+.words {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35rpx;
+  color: black;
+  text-align:left;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+
+.interact {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.interact image{
+  width: 75rpx;
+  height: 75rpx;
+  vertical-align: center;
+
+}
+
+
+
+.talk{
+  display:flex;
+  flex-direction:row;
+}
+
+
+
+.thumbs{
+  display:flex;
+  flex-direction:row;
+}
+
+
+
