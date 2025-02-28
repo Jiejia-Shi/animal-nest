@@ -32,6 +32,3 @@ Notices: Volunteers can post important updates, educational content, and announc
 Feedback: Students can report the condition of homeless animals to volunteers, helping them stay informed and provide timely assistance.
 
 
-![头像图片](https://github.com/user-attachments/assets/a0035902-0ed5-4cbd-9557-0849feeacead)
-
-
