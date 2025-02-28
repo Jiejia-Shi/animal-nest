@@ -1,6 +1,8 @@
 # Animal Nest
 
-Animal Nest is a school-based platform for homeless animals, built using Java and WeChat Mini Program. It provides a space for students and volunteers to connect, communicate and learn more about the homeless animals on campus.
+Animal Nest is a school-based platform for homeless animals, which provides a space for students and volunteers to connect, communicate and learn more about the homeless animals on campus.
+
+Key technologies: Java, Wechat Mini Program (HTML/CSS/JavaScript), Mybatis, Spring Boot, MySQL, ImgURL.
 
 # Inspiration
 
@@ -20,4 +22,12 @@ Seeing these issues, I came up with the idea of building a platform to connect s
 With this vision, I developed Animal Nest, a platform built using Java and WeChat Mini Program, to bridge the gap between students and volunteers in caring for homeless animals on campus.
 
 # What it does
+
+Animal Information: Volunteers can upload basic details about homeless animals, and students can browse this information. Students can also save their favorite animals to track their conditions.
+
+Posting: Students can share their experiences with these animals, as well as like and comment on other posts.
+
+Notices: Volunteers can post important updates, educational content, and announcements about association activities.
+
+Feedback: Students can report the condition of homeless animals to volunteers, helping them stay informed and provide timely assistance.
 
