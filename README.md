@@ -4,6 +4,9 @@ Animal Nest is a school-based platform for homeless animals, which provides a sp
 
 Key technologies: Java, Wechat Mini Program (HTML/CSS/JavaScript), Mybatis, Spring Boot, MySQL, ImgURL.
 
+![f53fb90d474635d4129851ede88a53a](https://github.com/user-attachments/assets/fe5aa4ab-10ef-4671-b47e-767966e4a1be)
+
+
 # Inspiration
 
 When I was studying for my bachelor's degree, I noticed that many homeless animals, mostly cats, lived on campus. Students often enjoyed feeding and playing with them, and there was even a campus animal protection association. However, several challengs arose:
